@@ -33,7 +33,7 @@ export default function Home() {
       <textarea
         value={text}
         onChange={handleChange}
-        rows="15"
+        rows={15}
         placeholder="Escreva aqui e veja quantas palavras seu texto tem"
         className="h-80 md:h-auto rounded-2xl p-4 md:p-8 text-xs md:text-xl text-neutral-200 bg-neutral-700 backdrop-opacity-10 backdrop-invert border-green-800 border w-5/6"
       />
